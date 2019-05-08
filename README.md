@@ -1,5 +1,6 @@
-# Direct Print
-![Pipeline](https://dev.azure.com/techployee/GitHub%20Pipeline/_apis/build/status/DirectPrint)
+<img src="https://raw.githubusercontent.com/Techployee/direct-print/master/images/directprint.png" alt="logo" width="200"/>
+
+<img src="https://dev.azure.com/techployee/GitHub%20Pipeline/_apis/build/status/DirectPrint" alt="pipeline" />
 
 Send raw data directly to a printer. 
 
@@ -25,7 +26,7 @@ PrintJob(JobName, DataType, byte[])
 PrintJob(JobName, DataType, FileInfo)
 ```
 
-Three data types
+Three data types:
 - DataType.RAW
 - DataType.Text
 - DataType.XPS_PASS
