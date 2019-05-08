@@ -7,16 +7,17 @@ Send raw data directly to a printer.
 
 Creating a printer object.
 
-Local
+Local Printer
 ```
 Printer printer = new Printer("HP Color LaserJet 1600");
 ```
 
-Network
+Network Printer
 ```
 Printer printer = new Printer("\\192.168.1.200\Brother MFC-7362N Printer");
 ```
 
+### Print Job
 A Print job can be created with three different constructors.
 ```
 PrintJob(JobName, DataType, string)
@@ -30,6 +31,7 @@ Three data types
 - DataType.XPS_PASS
 
 
+### Printing
 Printing a string.
 ```
 printer.Print(new PrintJob("StringTest", DataType.RAW, "Hello World!"));
