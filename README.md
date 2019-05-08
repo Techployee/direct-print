@@ -45,5 +45,5 @@ printer.Print(new PrintJob("ByteTest", DataType.RAW, Encoding.ASCII.GetBytes("He
 
 Printing a file.
 ```
-printer.Print(new PrintJob("ByteTest", DataType.RAW, "path\to\file.txt");
+printer.Print(new PrintJob("FileTest", DataType.RAW, "path\to\file.txt");
 ```
