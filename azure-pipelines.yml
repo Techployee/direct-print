@@ -32,7 +32,7 @@ steps:
     command: 'pack'
     packagesToPack: 'src/DirectPrint/*.csproj'
     versioningScheme: 'off'
-
+    nobuild: true
 
 - task: DotNetCoreCLI@2
   inputs:
